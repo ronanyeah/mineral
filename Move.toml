@@ -1,0 +1,16 @@
+[package]
+name = "Mineral"
+edition = "2024.beta"
+published-at = "0x9cde6fd22c9518820644dd1350ac1595bb23751033d247465ff3c7572d9a7049"
+version = "1.0.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.24.1" }
+TimeLockedBalance = { git = "https://github.com/ronanyeah/time-locked-balance.git", rev = "master" }
+
+[addresses]
+mineral = "0x9cde6fd22c9518820644dd1350ac1595bb23751033d247465ff3c7572d9a7049"
+
+[dev-dependencies]
+
+[dev-addresses]
